@@ -12,10 +12,7 @@ body{
 /*--- header area ---*/
 header{
     background-color: rgba(248, 227, 227, 0.829);
-    padding:20px 35px;
-    
-   
-    
+    padding:20px 35px;   
 }
 .manu-container{
     display: flex;
@@ -34,7 +31,10 @@ header{
     font-size: 18px;
     text-align: center;
     padding-right: 120px;
+    align-items: center;
 }
+
+
 .banner-container{
     display: flex;
     justify-content: space-between;
@@ -126,4 +126,43 @@ h2{
 h5{
     text-align: center;
     margin-top: 18px;
+}
+.extra{
+    background-color: rgba(252, 127, 127, 0.829);
+    padding:20px 35px; 
+}
+.extra-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+.extra-img{
+    width: 400px;
+    height: 500px;
+    border-radius: 14px;
+
+
+}
+.extra-list{
+    font-size: 18px;
+}
+.list{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 50px;
+
+}
+i{
+    color: white;
+}
+h3{
+    font-size: 75px;
+    padding-right: 18px;
 }
