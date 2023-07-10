@@ -56,6 +56,7 @@ h1{
     border: none;
     margin-top: 25px;
     border-radius: 8px;
+    
 
 }
 .banner-img{
@@ -186,3 +187,46 @@ h3{
     padding-right: 80px;
     padding-left: 80px;
 }
+.sale-container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;  
+    align-items: center; 
+    background-color: rgba(252, 228, 228, 0.829);
+    padding: 100px 120px;   
+}
+.sale{
+    align-items: center;
+}
+span{
+    color: rgb(175, 7, 7);
+    font-size: 45px;
+}
+.insta-container{
+    padding: 180px;
+    text-align: center;
+}
+.insta-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ins{
+    height: 250px;
+    width: 230px;
+    margin-top: 70px;
+}
+.mail-section{
+    background-color: rgba(235, 233, 233, 0.829);
+    padding: 180px;
+    align-items: center; 
+    background-repeat: no-repeat; 
+    
+}
+.mail-img{
+    width: 800px;
+    height: 300px;
+   
+
