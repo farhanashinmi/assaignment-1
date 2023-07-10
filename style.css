@@ -60,3 +60,13 @@ h1{
 .banner-img{
     size: 25px;
 }
+.featuted-section{
+    padding: 180px;
+}
+.featured-container{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    padding-bottom: 18px;
+}
