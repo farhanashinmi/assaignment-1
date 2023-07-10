@@ -166,3 +166,23 @@ h3{
     font-size: 75px;
     padding-right: 18px;
 }
+.group-container{
+    
+    padding: 18px 22px 18px 22px;
+    background-color: rgb(231, 231, 230);
+    box-sizing: border-box;
+    margin: 180px;
+}
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.grp{
+    align-items: center;
+}
+.grp-img{
+    padding-right: 80px;
+    padding-left: 80px;
+}
