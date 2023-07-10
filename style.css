@@ -39,7 +39,8 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;  
-    align-items: center; 
+    align-items: center;
+    
 }
 h1{
     font-size: 45px;
@@ -59,14 +60,70 @@ h1{
 }
 .banner-img{
     size: 25px;
+    height: 780px;
 }
 .featuted-section{
     padding: 180px;
 }
 .featured-container{
     text-align: center;
+    max-height: 100vh;
 }
 h2{
     font-size: 25px;
     padding-bottom: 18px;
+    
+}
+.featured-img{
+    display: flex;
+    justify-content: space-between;
+    padding-top:45px ;
+    background-image: cover;
+    gap: 4px; 
+       
+}
+.feat-img-1{
+    background-color: rgba(206, 159, 186, 0.616);
+    box-sizing: border-box;
+    border-radius: 45% 45% 0 0;
+    background-attachment: fixed;
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    background-position: overlay;
+    
+    
+    
+}
+.feat-img-2{
+    background-color: rgba(147, 180, 180, 0.459);
+    box-sizing: border-box;
+    border-radius: 45% 45% 0 0;
+    background-attachment: fixed;
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    background-position: overlay;
+    
+}
+.feat-img-3{
+    background-color: rgba(192, 189, 191, 0.616);
+    box-sizing: border-box;
+    border-radius: 45% 45% 0 0;
+    background-attachment: fixed;
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    background-position: overlay;
+}
+.feat-box{
+    border-top: 50%;
+    width: auto;
+    height: auto;
+   
+}
+
+h5{
+    text-align: center;
+    margin-top: 18px;
 }
