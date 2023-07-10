@@ -14,6 +14,7 @@ header{
     background-color: rgba(248, 227, 227, 0.829);
     padding:20px 35px;   
 }
+
 .manu-container{
     display: flex;
     justify-content: space-between;
@@ -247,5 +248,14 @@ span{
 }
 .mail-description{
     margin-top: 2px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 120px;
+}
+.footer-description{
+    margin-top: 20px;
 }
 
