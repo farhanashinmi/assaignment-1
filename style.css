@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: Poppins;
+    background-color: white;
+}
+
+/*--- header area ---*/
+header{
+    background-color: rgba(248, 227, 227, 0.829);
+    padding:20px 35px;
+    
+   
+    
+}
+.manu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+    height: 30px;
+    
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 120px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;  
+    align-items: center; 
+}
+h1{
+    font-size: 45px;
+}
+.banner-description{
+    margin-top: 40px;
+    font-size: normal;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    background-color: #f17878;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+
+}
+.banner-img{
+    size: 25px;
+}
