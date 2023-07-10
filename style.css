@@ -219,14 +219,33 @@ span{
     margin-top: 70px;
 }
 .mail-section{
-    background-color: rgba(235, 233, 233, 0.829);
+    background-color:white;
     padding: 180px;
     align-items: center; 
-    background-repeat: no-repeat; 
+    text-align: center;
+    background-image: url(images/Rectangle\ 9.png);  
+    text-align: center; 
+    width: 620px; 
+    margin-top: 16px; 
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-right: 200px;
     
 }
-.mail-img{
-    width: 800px;
-    height: 300px;
-   
+.mail-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+#mail-box{
+    width: 500px;
+    height: 35px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.mail-description{
+    margin-top: 2px;
+}
 
