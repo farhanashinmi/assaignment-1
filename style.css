@@ -26,13 +26,26 @@ header{
     
 
 }
-.menu{
+.manu{
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     text-align: center;
     padding-right: 120px;
     align-items: center;
+    list-style: none;
+    gap: 22px;
+}
+
+.manu:hover{
+    color: #f17878;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: rgb(248, 246, 245);
+    cursor: pointer;
+
 }
 
 
@@ -57,6 +70,7 @@ h1{
     border: none;
     margin-top: 25px;
     border-radius: 8px;
+    font-size: 16px;
     
 
 }
@@ -159,14 +173,22 @@ h5{
     padding-left: 120px;
     padding-right: 120px;
     border-radius: 50px;
+    list-style: none;
 
 }
+
 i{
     color: white;
 }
 h3{
     font-size: 75px;
     padding-right: 18px;
+}
+.select-section{
+    border: none;
+    margin-top: 18px;
+    height: 22px;
+    width: 150px;
 }
 .group-container{
     
