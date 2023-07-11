@@ -37,7 +37,13 @@ header{
     gap: 22px;
 }
 
-
+.manu:hover {
+    color: #f17878;
+    font-size: 19px;
+    cursor: pointer;
+    
+    
+}
 .btn:hover{
     color: rgb(248, 246, 245);
     cursor: pointer;
