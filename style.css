@@ -98,7 +98,8 @@ h2{
     justify-content: space-between;
     padding-top:45px ;
     background-image: cover;
-    gap: 4px; 
+    gap: 4px;
+   
        
 }
 .feat-img-1{
@@ -110,6 +111,8 @@ h2{
     width: 300px;
     align-items: center;
     background-position: overlay;
+    
+    
     
     
     
@@ -272,6 +275,7 @@ span{
     border: none;
     margin-top: 25px;
     border-radius: 8px;
+    text-align: left;
 }
 .mail-description{
     margin-top: 2px;
