@@ -50,7 +50,7 @@ header{
 
 }
 
-
+/*--- banner area ---*/
 .banner-container{
     display: flex;
     justify-content: space-between;
@@ -80,6 +80,7 @@ h1{
     size: 25px;
     height: 780px;
 }
+/*---featured area ---*/
 .featuted-section{
     padding: 180px;
 }
@@ -145,6 +146,8 @@ h5{
     text-align: center;
     margin-top: 18px;
 }
+
+/*--- bonus area ---*/
 .extra{
     background-color: rgba(252, 127, 127, 0.829);
     padding:20px 35px; 
