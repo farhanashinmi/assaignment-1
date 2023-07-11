@@ -37,7 +37,7 @@ header{
     gap: 22px;
 }
 
-.manu:hover {
+.manu li:hover {
     color: #f17878;
     font-size: 19px;
     cursor: pointer;
